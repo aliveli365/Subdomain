@@ -2,7 +2,7 @@ import requests
 
 
 domain = input("domain gir:")
-file = open ("subdomain.txt","r")
+file = open ("common.txt","r")
 
 content = file.read()
 subdomains = content.splitlines()
